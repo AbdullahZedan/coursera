@@ -1,0 +1,150 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.boss-1{
+    position: relative;
+    margin: 1%;
+    
+}
+
+.boss-2{
+    position: relative;
+    margin: 1%;
+
+}
+
+.boss-3{
+    position: relative;
+    margin: 1%;
+
+}
+
+.head-1{
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 5px;
+    float: right;
+    background: #42f569;
+    border: solid 1px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: solid 1px black;
+
+
+}
+
+.head-2{
+    text-align:center ;
+    color: white;
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 5px;
+    float: right;
+    background: #429ef5;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: solid 1px black;
+
+}
+
+.head-3{
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 5px;
+    float: right;
+    background: #f54263;
+    border: solid 1px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: solid 1px black;
+
+}
+
+.cont-1{
+    padding: 25px 10px 10px 10px;
+    margin: 10px;
+}
+
+.cont-2{
+    padding: 25px 10px 10px 10px;
+    margin: 10px;
+}
+
+.cont-3{
+    padding: 25px 10px 10px 10px;
+    margin: 10px;
+}
+
+@media (min-width: 992px) {
+    .boss-1, .boss-2, .boss-3 {
+        float: left; border: 1px solid black;}
+    .boss-1 {
+        width: 31.33%
+    }
+    .boss-2 {
+        width: 31.33%
+    }
+    .boss-3 {
+        width: 31.33%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .boss-1, .boss-2, .boss-3 {
+        float: left; border: 1px solid black;
+    }
+    .boss-1 { 
+        width: 48%
+    }
+    .boss-2 {
+        width: 48%
+    }
+    .boss-3 {
+        width: 98%
+    }
+}
+@media (max-width: 767px){
+    .boss-1, .boss-2, .boss-3 {
+        float: left; border: 1px solid black;}
+    .boss-1 {
+        width: 100%
+    }
+    .boss-2 {
+        width: 100%
+    }
+    .boss-3 {
+        width: 100%
+    }
+}
